@@ -1,0 +1,2 @@
+/* pages/calc/calc.wxss */
+@import "../../utils/weui.wxss";

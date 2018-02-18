@@ -1,0 +1,47 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  text-align: right;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  font-size: 50rpx;
+  color: #aaa;
+  text-align: right;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.backPic {
+  position: fixed;
+  background-image: "../../../../img/frog.jpg";
+  height: 100%;
+}
+
+.index-hd {
+  text-align: center;
+  
+}
+
+.index-bd {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50rpx 100rpx;
+  border-color: #000000;
+
+}
+
+.index-item-img {
+  height: 100rpx;
+  width: 100rpx;
+}

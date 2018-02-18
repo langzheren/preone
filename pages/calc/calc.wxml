@@ -1,0 +1,35 @@
+<!--pages/calc/calc.wxml-->
+<view class='calc-hd'>
+  <view class="weui-cells__title">时间选择</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">当前选择</view>
+      </view>
+      <view class="weui-cell__bd">
+        <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+          <view class="weui-input">{{time}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class="weui-cells__title">日期选择</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">当前选择</view>
+      </view>
+      <view class="weui-cell__bd">
+        <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+          <view class="weui-input">{{date}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <button type='primary'>点击计算</button>
+  <view class=''>
+    <scroll-view scroll-y="true" style="height: 300rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+      <view id="demo1" >ykykyuikyiktyiktiukuikikyukytuktyuktyuktyukykykyuikyiktyiktiukuikikyukytuktyuktyuktyukykykyuikyiktyiktiukuikikyukytuktyuktyuktyukykykyuikyiktyiktiukuikikyukytuktyuktyuktyukykykyuikyiktyiktiukuikikyukytuktyuktyuktyukykykyuikyiktyiktiukuikikyukytuktyuktyuktyuk</view>
+    </scroll-view>
+  </view>
+</view>
